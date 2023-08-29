@@ -20,7 +20,7 @@ assessmentButton.onclick = () => {
     // 診断結果の文字列
     const result = assessment(userName);
     resultDivision.innerHTML = `
-    <div class="card" id="result-area">
+    <div class="card shadow" id="result-area">
       <div class="card-header text-bg-primary">診断結果</div>
       <div class="card-body">
         <p class="card-text">${result}</p>
